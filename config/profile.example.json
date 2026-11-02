@@ -1,0 +1,64 @@
+{
+  "_help": "Copy to config/profile.json and replace every placeholder value (python3 scripts/doctor.py lists any left). {greeting} and {agency} are filled in per lead; {first} is the founder's first name. A template is one string or a list of lines. See README for every key.",
+
+  "you": {
+    "full_name": "Your Name",
+    "first_name": "Your",
+    "last_name": "Name",
+    "email": "you@example.com",
+    "phone": "",
+    "company": "YOUR-STUDIO-NAME",
+    "website": "https://your-site.com",
+    "job_title": "Founder, Shopify Developer",
+    "country": "YOUR-COUNTRY"
+  },
+
+  "pitch": "a freelance Shopify developer contacting a Shopify agency to offer extra development capacity (white-label / overflow client builds)",
+
+  "answers": {
+    "how_heard": "Shopify Partners Directory",
+    "what_needed": "Extra Shopify development capacity"
+  },
+
+  "prefer_options": {
+    "hear": "shopify|partner|directory",
+    "service": "shopify|develop|partner|white.?label|outsourc|collab"
+  },
+
+  "greeting_named": "Hey {first},",
+  "greeting_anonymous": "Hey there!",
+
+  "subject": "Shopify dev capacity for {agency}",
+
+  "message": [
+    "{greeting}",
+    "",
+    "Hope you are doing well! I came across {agency} on the Shopify Partners Directory and wanted to reach out.",
+    "",
+    "I help Shopify agencies with client builds when they need extra development capacity.",
+    "",
+    "I recorded a quick video showing how I approach a Shopify build so you can get a sense of how I work:",
+    "https://YOUR-VIDEO-LINK",
+    "",
+    "If it helps, I would also be happy to build a small demo first so you can evaluate my work before committing to anything. My portfolio is here: https://your-site.com",
+    "",
+    "Would this be useful for your team? If so, book a call and we will go from there: https://YOUR-CALENDLY-LINK",
+    "",
+    "Best,",
+    "Your Name"
+  ],
+
+  "short": "{greeting} I found {agency} on the Shopify Partners Directory. I help Shopify agencies with client builds when they need extra dev capacity, and I'm happy to build a small demo first. How I work: https://YOUR-VIDEO-LINK Portfolio: https://your-site.com Call: https://YOUR-CALENDLY-LINK - Your Name",
+
+  "tiny": "{greeting} I help Shopify agencies like {agency} with client builds when they need extra dev capacity, and I'm happy to build a small demo first. How I work: https://YOUR-VIDEO-LINK - Your Name",
+
+  "copy_links": {
+    "Video": "https://YOUR-VIDEO-LINK",
+    "Calendly": "https://YOUR-CALENDLY-LINK",
+    "Portfolio": "https://your-site.com"
+  },
+
+  "gmail_accounts": [
+    { "name": "main", "email": "you@example.com", "u": 0 }
+  ]
+}

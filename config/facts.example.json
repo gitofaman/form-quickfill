@@ -1,0 +1,19 @@
+{
+ "about": [
+  {"topic": "Years of experience", "answer": "YOUR-YEARS years"},
+  {"topic": "Projects delivered", "answer": "YOUR-NUMBER Shopify stores built and launched"},
+  {"topic": "How I approach a build / my process / show us how you work", "answer": "Here's a quick video of how I approach a Shopify build: https://YOUR-VIDEO-LINK"},
+  {"topic": "Portfolio / work samples / previous work", "answer": "https://your-site.com"},
+  {"topic": "Book a call / scheduling link", "answer": "https://YOUR-CALENDLY-LINK"},
+  {"topic": "Main skills / tech stack", "answer": "YOUR-SKILLS (e.g. Shopify themes and Liquid, Online Store 2.0 sections, Shopify apps, JavaScript)"},
+  {"topic": "Working style", "answer": "YOUR-WORKING-STYLE (e.g. fully remote freelancer, clean builds from Figma, clear communication across time zones)"},
+  {"topic": "Languages", "answer": "YOUR-LANGUAGES"},
+  {"topic": "Location (only when a form requires it)", "answer": "YOUR-COUNTRY, working remotely across time zones"}
+ ],
+ "never": [
+  "Phone number: never invent one",
+  "A client's budget: leave it empty",
+  "Rates, salary, availability or start date: only from a learned answer, otherwise leave empty"
+ ],
+ "learned": []
+}

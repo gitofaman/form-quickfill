@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Form Quickfill",
+  "version": "1.0.0",
+  "description": "Side panel for hand-sending contact forms to a Notion lead list: opens the next lead, fills the form, logs the send. Never submits.",
+  "permissions": ["sidePanel", "scripting"],
+  "host_permissions": ["http://127.0.0.1:8131/*", "<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "action": { "default_title": "Form Quickfill" },
+  "commands": {
+    "fill-now": {
+      "suggested_key": { "default": "Alt+Shift+F", "mac": "Alt+Shift+F" },
+      "description": "Fill the form on this page"
+    }
+  }
+}

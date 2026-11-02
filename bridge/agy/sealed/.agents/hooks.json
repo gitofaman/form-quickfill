@@ -1,0 +1,7 @@
+{
+  "sealed": {
+    "PreToolUse": [
+      {"matcher": "*", "hooks": [{"command": "python3 -I ../../gate.py finish", "timeout": 10}]}
+    ]
+  }
+}

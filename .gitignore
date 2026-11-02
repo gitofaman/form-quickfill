@@ -1,0 +1,12 @@
+# secrets and personal config
+.env
+config/profile.json
+config/facts.json
+
+# runtime data: send log, parked sends, bridge log, lead CSVs
+data/
+bridge/agy/logs/
+
+__pycache__/
+*.pyc
+.DS_Store

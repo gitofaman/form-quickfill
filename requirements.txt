@@ -1,0 +1,3 @@
+# Only scripts/find_founders.py needs these; the bridge uses the standard library.
+requests
+beautifulsoup4
